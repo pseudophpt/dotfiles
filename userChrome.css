@@ -29,6 +29,30 @@
   --toolbarbutton-border-radius: 0px !important;
 }
 
+/* Findbar styling */
+.browserContainer > findbar {
+  background-color: #2C292A !important;
+}
+
+.findbar-find-previous, .findbar-find-next {
+  background-color: #3C393A !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+.findbar-find-previous:hover, .findbar-find-next:hover {
+  background-color: #7C797A !important;
+  background-image: none !important;
+}
+
+.findbar-textbox {
+  border: none !important;
+  background-color: #2C292A !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+
 /* Resize urlbar */
 #urlbar {
 	margin: 0px !important;
