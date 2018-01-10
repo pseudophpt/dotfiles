@@ -25,7 +25,7 @@
 }
 
 /* Tab color */
-#tabbrowser-tabs i{
+#tabbrowser-tabs {
   background-color: #2B2928 !important;
 }
 
@@ -60,9 +60,8 @@
 }
 
 /* No idetity box */
-#identity-box.chromeUI { 
+#identity-box { 
   display: none !important;
-
 }
 
 /* URLBAR same color */
