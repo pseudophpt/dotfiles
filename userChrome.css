@@ -24,6 +24,11 @@
   --toolbarbutton-border-radius: 0px !important;
 }
 
+/* Tab color */
+#tabbrowser-tabs i{
+  background-color: #2B2928 !important;
+}
+
 /* Remove hover bar */
 #TabsToolbar[brighttext] > #tabbrowser-tabs > .tabbrowser-tab:hover > .tab-stack > .tab-background > .tab-line:not([selected="true"]) {
   background-color: transparent !important;
