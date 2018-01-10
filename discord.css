@@ -1,0 +1,32 @@
+.guilds-wrapper, 
+.container-RYiLUQ, 
+.scrollbar-2so3Ly, 
+.pad-3D5tOh, .title-qAcLxz,
+.theme-dark .friends-table,
+.theme-dark .messages-wrapper,
+.scrollbar, .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .thumb,
+.theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb,
+.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .track, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .track,
+.flex-spacer .flex-horizontal form, 
+.flex-horizontal > .flex-spacer, 
+.messages.scroller,
+.container-iksrDt, 
+.channel-members, 
+.private-channels,
+.headerBar-cxbhPD,
+.friends-table{
+  background-color: #2C2A29 !important;
+}
+
+body, .guilds-wrapper .guilds .friends-online, .name-3gtcmp {
+  font-family: Terminus !important;
+} 
+
+.flex-horizontal, .markup, .user-name {
+  font-size: 12px !important; 
+}
+
+.header-1tSljs, .title-qAcLxz, .theme-dark .friends-table, .theme-dark .messages-wrapper, .search-bar, .theme-dark .headerBar-cxbhPD {
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
