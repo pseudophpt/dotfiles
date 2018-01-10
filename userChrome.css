@@ -29,9 +29,10 @@
   background-color: transparent !important;
 }
 
-/* No box shadow around urlbar */
+/* No box shadow around urlbar, background color */
 #urlbar {
   box-shadow: none !important;
+  background-color: #2B2928 !important;
 }
 
 /* No tab ornaments */
@@ -63,11 +64,6 @@
 #urlbar {
   background-color: #2B2928 !important;
   border: none !important;
-}
-
-/* tabs background */
-.box-inherit {
-  background-color: #2B2928 !important;
 }
 
 /* No icons */
