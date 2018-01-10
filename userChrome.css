@@ -1,0 +1,74 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#tabbrowser-tab {
+  border: none !important;
+}
+
+/* Remove border styling */
+:root {
+  --tab-line-color: none !important;
+  --tabs-border: none !important; 
+  --tab-min-height: 40px !important;
+  --toolbar-bgcolor: #060403 !important;
+  --toolbarbutton-border-radius: 0px !important;
+}
+
+/* Remove hover bar */
+#TabsToolbar[brighttext] > #tabbrowser-tabs > .tabbrowser-tab:hover > .tab-stack > .tab-background > .tab-line:not([selected="true"]) {
+  background-color: transparent !important;
+}
+
+/* No box shadow around urlbar */
+#urlbar {
+  box-shadow: none !important;
+}
+
+/* No tab ornaments */
+.tab-background, .tabbrowser-tab:not([visuallyselected="true"]) {
+  border: none !important;
+}
+
+.tabbrowser-tab[visuallyselected="true"] {
+  font-weight: bold !important;
+}
+
+/* Remove separator between urlbar and settings */
+#PanelUI-button {
+  border: none !important;
+}  
+
+/* No cluttering buttons */
+#page-action-buttons {
+  display: none !important;
+}
+
+/* No idetity box */
+#identity-box.chromeUI { 
+  display: none !important;
+
+}
+
+/* URLBAR same color */
+#urlbar {
+  background-color: #2B2928 !important;
+  border: none !important;
+}
+
+/* tabs background */
+.box-inherit {
+  background-color: #2B2928 !important;
+}
+
+/* No icons */
+.tab-icon-image {
+  display: none !important;
+}
+
+.chromeclass-toolbar-additional {
+  display: none !important;
+}
+
+#navigator-toolbox > toolbar:not(#toolbar-menubar):not(#TabsToolbar):not(#nav-bar) {
+  display: none !important;
+}
+
