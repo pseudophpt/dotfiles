@@ -20,6 +20,7 @@
 
 body, .guilds-wrapper .guilds .friends-online, .name-3gtcmp {
   font-family: Terminus !important;
+  font-size: 12px !important;
 } 
 
 .flex-horizontal, .markup, .user-name {
