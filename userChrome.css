@@ -20,6 +20,19 @@
   font-family: Terminus;
 }
 
+/* Newtab button */
+.tabs-newtab-button {
+  list-style-image: url('data:image/svg+xml;uf8,<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"> <circle cx="8" cy="8" r="4" stroke="gray" stroke-width="1" fill="gray"></circle> </svg>') !important; 
+}
+
+.tabs-newtab-button:hover {
+  list-style-image: url('data:image/svg+xml;uf8,<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"> <circle cx="8" cy="8" r="4" stroke="white" stroke-width="1" fill="white"></circle> </svg>') !important; 
+}
+
+.toolbarbutton-icon {
+  background-color: transparent !important;
+}
+
 /* Remove border styling */
 :root {
   --tab-line-color: none !important;
